@@ -12,6 +12,11 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+
+  server: {
+    allowedHosts: [
+      'devserver-master--astounding-twilight-12d7f9.netlify.app'
+    ]
+  }
+
 })
-
-

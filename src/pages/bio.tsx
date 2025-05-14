@@ -1,8 +1,8 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom"
 import Socials from '../socialbuttons';
-import logo from '../assets/logo.png'
-import rust from '../assets/grey-rust.png'
+import logo from '../assets/logo.webp'
+import rust from '../assets/grey-rust.webp'
 import Stage from '../assets/stage.png'
 
 export default function Bio() {

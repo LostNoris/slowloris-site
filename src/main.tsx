@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Landing from "./pages/landing";
 import Bio from "./pages/bio";
 import Contact from "./pages/contact";
 import Music from "./pages/music";
-import art from './assets/art-grey.png'; // Import your image from the assets folder
+import art from './assets/art-grey.webp'; // Import your image from the assets folder
 import "./index.css"; // Global styles
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
@@ -23,14 +23,14 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
         width: "100%",
       }}
     >
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/bio" element={<Bio />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/music" element={<Music />} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   </React.StrictMode>
 );

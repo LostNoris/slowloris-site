@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Socials from '../socialbuttons';
-import logo from '../assets/logo.png'
+import logo from '../assets/logo.webp'
 
 export default function Music() {
   return (

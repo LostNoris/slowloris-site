@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom"
 import Socials from '../socialbuttons';
 import logo from '../assets/logo.png'
-import rust from '../assets/grey-rust.png'
+import rust from '../assets/grey-rust.webp'
 
 export default function Contact() {
   return (

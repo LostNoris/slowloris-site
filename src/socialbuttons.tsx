@@ -4,7 +4,7 @@ import bc from './assets/bc-orange.png';
 import yt from './assets/yt-orange.png';
 import fb from './assets/fb-orange.png';
 import { Card, CardContent } from "@/components/ui/card";
-import rust from './assets/grey-rust.png';
+import rust from './assets/grey-rust.webp';
 
 function Footer() {
   return (

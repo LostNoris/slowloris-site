@@ -5,7 +5,7 @@ import Landing from "./pages/landing";
 import Bio from "./pages/bio";
 import Contact from "./pages/contact";
 import Music from "./pages/music";
-import art from './assets/art-grey.png'; // Import your image from the assets folder
+import art from './assets/art-grey.webp'; // Import your image from the assets folder
 import "./index.css"; // Global styles
 
 ReactDOM.createRoot(document.getElementById("root")!).render(

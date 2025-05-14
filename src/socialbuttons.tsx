@@ -1,8 +1,8 @@
-import spot from './assets/spot-orange.png';
-import insta from './assets/insta-orange.png';
-import bc from './assets/bc-orange.png';
-import yt from './assets/yt-orange.png';
-import fb from './assets/fb-orange.png';
+import spot from './assets/spot-orange.webp';
+import insta from './assets/insta-orange.webp';
+import bc from './assets/bc-orange.webp';
+import yt from './assets/yt-orange.webp';
+import fb from './assets/fb-orange.webp';
 import { Card, CardContent } from "@/components/ui/card";
 import rust from './assets/grey-rust.webp';
 

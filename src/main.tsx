@@ -8,6 +8,7 @@ import Music from "./pages/music";
 import Hoof from "./pages/releases/soundshoof";
 import Shotguns from "./pages/releases/shotguns";
 import Tickling from "./pages/releases/tickling";
+import SixOneNine from "./pages/releases/619";
 import art from './assets/art-grey.webp'; // Import your image from the assets folder
 import "./index.css"; // Global styles
 
@@ -35,6 +36,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
           <Route path="/releases/sounds-hoof" element={<Hoof />} />
           <Route path="/releases/selling-shotguns" element={<Shotguns />} />
           <Route path="/releases/tickling-is-torture" element={<Tickling />} />
+          <Route path="/releases/six-one-nine" element={<SixOneNine />} />
         </Routes>
       </BrowserRouter>
     </div>

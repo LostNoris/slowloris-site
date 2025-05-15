@@ -7,6 +7,7 @@ import Contact from "./pages/contact";
 import Music from "./pages/music";
 import Hoof from "./pages/releases/soundshoof";
 import Shotguns from "./pages/releases/shotguns";
+import Tickling from "./pages/releases/tickling";
 import art from './assets/art-grey.webp'; // Import your image from the assets folder
 import "./index.css"; // Global styles
 
@@ -33,6 +34,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
           <Route path="/music" element={<Music />} />
           <Route path="/releases/sounds-hoof" element={<Hoof />} />
           <Route path="/releases/selling-shotguns" element={<Shotguns />} />
+          <Route path="/releases/tickling-is-torture" element={<Tickling />} />
         </Routes>
       </BrowserRouter>
     </div>

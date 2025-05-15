@@ -62,8 +62,8 @@ export default function Music() {
     />
   </div>
 </div>
-        
-
+     
+<br />
       {/* Sounds Hoof Video */}
         <h2 className="text-xl font-bold mb-2 text-white">Slow Loris – Sounds Hoof</h2>
 <div
@@ -88,7 +88,7 @@ export default function Music() {
   </div>
 </div>
 
-
+<br />
       {/* Spotify Player */}
       <div className="w-full max-w-3xl">
         <h2 className="text-xl font-bold mb-2 text-white">Listen on Spotify</h2>

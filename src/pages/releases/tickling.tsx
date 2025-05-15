@@ -61,9 +61,8 @@ export default function TicklingIsTorture() {
       <p className="text-base leading-relaxed font-medium">
         It’s the closing track, <em>Bradford Bassline</em>, that offers an early glimpse of the evolving sound Slow Loris would explore more fully in their 2021 EP <em>Sounds Hoof</em> and the 2025 single <em>Selling Shotguns</em>. Though the band has since moved into heavier, more electronic territory, <em>Tickling Is Torture</em> remains a testament to their creative foundations and commitment to sonic evolution.
       </p>
-    </div>
 
-    <p className="text-base leading-relaxed font-medium text-left">
+<p className="text-base leading-relaxed font-medium text-left">
       Discover more about the band on the <Link to="/bio" className="underline text-orange-500 hover:text-orange-300">artist bio</Link> page, or <Link to="/contact" className="underline text-orange-500 hover:text-orange-300">get in touch</Link> for press and booking inquiries.
       <br />
       <a
@@ -75,6 +74,10 @@ export default function TicklingIsTorture() {
         Listen on Bandcamp
       </a>
     </p>
+
+    </div>
+
+    
   </CardContent>
 </Card>
 

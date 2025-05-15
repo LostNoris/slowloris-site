@@ -69,9 +69,8 @@ export default function SellingShotguns() {
       <p className="text-base leading-relaxed font-medium">
         <em>Selling Shotguns</em> became available on all major streaming platforms on Friday, April 18, 2025, offering both longtime fans and new listeners a glimpse into the band’s most ambitious project to date.
       </p>
-    </div>
 
-    <p className="text-base leading-relaxed font-medium text-left">
+<p className="text-base leading-relaxed font-medium text-left">
       Learn more about Slow Loris on the <Link to="/bio" className="underline text-orange-500 hover:text-orange-300">artist bio</Link> page, or <Link to="/contact" className="underline text-orange-500 hover:text-orange-300">get in touch</Link> for press and booking inquiries.
       <br />
       <a
@@ -83,6 +82,10 @@ export default function SellingShotguns() {
         Listen on Bandcamp
       </a>
     </p>
+
+    </div>
+
+    
   </CardContent>
 </Card>
 

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import Socials from '../../socialbuttons';
 import logo from '../../assets/logo.webp'
 import rust from '../../assets/grey-rust.webp'
-import Shotguns from '../../assets/shotguns-art.webp'
+import Six from '../../assets/619-art.webp'
 
 export default function sixonenine() {
   return (
@@ -63,35 +63,33 @@ export default function sixonenine() {
       </p>
 
       <p className="text-base leading-relaxed font-medium">
-        The studio version, produced by Rebel Elements’ <strong>Sam Hobbs</strong>, showcases Slow Loris’s commitment to crafting immersive sonic environments. It is accompanied by surreal, cinematic visuals created by artist and filmmaker <strong>Chris Sellers</strong>.
+        The studio version, produced by Rebel Elements’ <strong>Sam Hobbs</strong>, showcases Slow Loris’s commitment to crafting immersive sonic environments. It is accompanied by surreal, cinematic visuals created by <strong>Chris Sellers</strong>.
       </p>
 
       <p className="text-base leading-relaxed font-medium">
         The live session version captures the band in their rawest form, delivering an uncut performance that bursts with energy and precision. Filmed in vertical format by <strong>Dean Glover</strong>, the video is a deliberate artistic choice, embracing mobile-first visual culture and reflecting the band’s openness to new formats while staying true to their experimental spirit.
       </p>
-    </div>
 
-    <p className="text-base leading-relaxed font-medium text-left">
-      Learn more about Slow Loris on the <Link to="/bio" className="underline text-orange-500 hover:text-orange-300">artist bio</Link> page, or <Link to="/contact" className="underline text-orange-500 hover:text-orange-300">get in touch</Link> for press and booking inquiries.
+<p className="text-base leading-relaxed font-medium">
+        The live video will premiere on YouTube on the 20th of June, one week after the official studio version.
+      </p>
+
+      <p className="text-base leading-relaxed font-medium text-left">
+      Learn more about Slow Loris on the <Link to="/bio">artist bio</Link> page, view previous Slow Loris <Link to="/music">releases</Link>, or <Link to="/contact" className="underline text-orange-500 hover:text-orange-300">get in touch</Link> for press and booking inquiries.
       <br />
-      <a
-        href="https://slowloris.bandcamp.com"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="underline text-orange-500 hover:text-orange-300"
-      >
-        Listen on Bandcamp
-      </a>
+      
     </p>
+
+    </div>    
   </CardContent>
 </Card>
 
 
     <br />
-    <img src={Shotguns} alt="pic" className="w-full sm:w-200 border-1 border-zinc-700 rounded-sm" />
+    <img src={Six} alt="pic" className="w-full sm:w-100 border-1 border-zinc-700 rounded-sm" />
     <br /> 
 
-<h2 className="text-xl font-bold mb-2 text-white">Slow Loris – Selling Shotguns</h2>
+<h2 className="text-xl font-bold mb-2 text-white">Slow Loris – Six One Nine</h2>
 <div
   className="relative w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-3xl mx-auto"
   style={{
@@ -106,7 +104,32 @@ export default function sixonenine() {
   >
     <iframe
       className="w-full h-full"
-      src="https://www.youtube.com/embed/dRIN_ib_n-M?si=wDl0d39lv08nn_vd"
+      src="https://www.youtube.com/embed/ccLYp-aPZSg?si=gqBb0-cPOdbok8Hs"
+      title="YouTube video player"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowFullScreen
+    />
+  </div>
+</div>
+
+<br />
+
+<h2 className="text-xl font-bold mb-2 text-white">Slow Loris – Six One Nine (live session)</h2>
+<div
+  className="relative w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-3xl mx-auto"
+  style={{
+    paddingBottom: '56.25%', // default 16:9 aspect ratio
+  }}
+>
+  <div
+    className="absolute top-0 left-0 w-full h-full"
+    style={{
+      paddingBottom: '0',
+    }}
+  >
+    <iframe
+      className="w-full h-full"
+      src="https://www.youtube.com/embed/ead7sME6SEo?si=syMIjY-NWvlB8-P6"
       title="YouTube video player"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowFullScreen

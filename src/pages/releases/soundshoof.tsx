@@ -69,7 +69,6 @@ export default function SoundsHoof() {
       <p className="text-base leading-relaxed font-medium">
         In May 2025, <strong>Sounds Hoof</strong> will be reissued in limited-edition cassette format, complete with a digital download available exclusively on Bandcamp. This rerelease is perfect for collectors and fans of electronic rock, experimental music, and physical music formats.
       </p>
-    </div>
 
 <p className="text-base leading-relaxed font-medium text-left">
   Learn more about Slow Loris on the <Link to="/bio" 
@@ -86,8 +85,7 @@ export default function SoundsHoof() {
 </a>
 </p>
 
-
-
+    </div>
 
   </CardContent>
 </Card>

@@ -42,36 +42,38 @@ export default function Bio() {
     <main className="flex flex-1 flex-col items-center justify-center w-full px-6 text-center">
         <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-2">Bio.</h1>
         <br />
-    <Card className="bg-zinc-500 border-zinc-700 w-full max-w-[20rem] sm:max-w-md md:max-w-xl lg:max-w-2xl shadow-xl rounded-2xl mx-auto"
-        style={{
+ <Card className="bg-zinc-500 border-zinc-700 w-full max-w-[20rem] sm:max-w-md md:max-w-xl lg:max-w-2xl shadow-xl rounded-2xl mx-auto"
+  style={{
     backgroundImage: `url(${rust})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
-    backgroundBlendMode: 'overlay', // Makes background slightly transparent
-    backgroundColor: 'rgba(0, 0, 0, 0.6)', // Add overlay tint if needed
+    backgroundBlendMode: 'overlay',
+    backgroundColor: 'rgba(0, 0, 0, 0.6)',
   }}>
-    <CardContent className="p-6">
-  <div className="flex flex-col text-left text-white space-y-4">
-    <p className="text-base leading-relaxed font-medium">
-      <strong>Slow Loris</strong> are an experimental rock four-piece based between Leeds and Manchester, known for fusing jagged alt-rock, modern progressive structures, nu-metal weight, and electronic textures into intense instrumental journeys.
-      Their music balances cinematic ambition with raw energy—landing somewhere between the mathier end of post-rock and the visceral pulse of the UK underground.
-    </p>
+  <CardContent className="p-6">
+    <div className="flex flex-col text-left text-white space-y-4">
+      <p className="text-base leading-relaxed font-medium">
+        <strong>Slow Loris</strong> are an experimental rock four-piece based between Leeds and Manchester. They fuse jagged alt-rock, modern progressive structures, nu-metal weight, and electronic textures into intense instrumental journeys. Their music balances cinematic ambition with raw energy, landing somewhere between the mathier end of post-rock and the visceral pulse of the UK underground.
+      </p>
 
-    <p className="text-base leading-relaxed font-medium">
-      Their upcoming debut album, <strong>Selling Shotguns</strong>, builds on the momentum of their EP <em>Sounds Hoof</em>, kicking off with the release of the title track—an unflinching sonic dive into the rituals and dissonance of British suburbia.
-    </p>
+      <p className="text-base leading-relaxed font-medium">
+        Their debut album <strong>Selling Shotguns</strong> is currently rolling out, beginning with the release of the title track. Next up is <strong>Six One Nine</strong>, arriving June 13. It’s a deep cut of space, tension, and release that pushes their sound into even more dynamic, high-contrast territory.
+      </p>
 
-    <p className="text-base leading-relaxed font-medium">
-      Since forming, Slow Loris have made their mark across the UK’s alternative scenes, performing alongside acts like Waldo’s Gift, No Violet, Petrol Girls, Shaku, and Yaatri. They've brought their sound to venues in Leeds, Manchester, and Bristol, and taken stages at events such as Manchester Jazz Festival and The Sage Gateshead.
-    </p>
+      <p className="text-base leading-relaxed font-medium">
+        Since forming, Slow Loris have made their mark across the UK’s alternative scenes, performing alongside acts like Waldo's Gift, No Violet, Petrol Girls, Yaatri, Bicurious, Gallops, Delta Sleep, and CLT DRP.
+      </p>
 
-    <p className="text-base leading-relaxed font-medium">
-      <strong>Slow Loris are loud, weird, wired—</strong>and not to be missed.
-    </p>
-  </div>
-</CardContent>
+      <p className="text-base leading-relaxed font-medium">
+        <strong>Slow Loris are</strong> Sam Evans and Sam Lowther on guitars, Chris Sellers on bass, and Theo Goss on drums.
+      </p>
 
-    </Card>
+      <p className="text-base leading-relaxed font-medium">
+        Loud. Weird. Wired. Not to be missed.
+      </p>
+    </div>
+  </CardContent>
+</Card>
 
     <br />
 

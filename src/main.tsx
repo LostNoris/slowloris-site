@@ -5,6 +5,7 @@ import Landing from "./pages/landing";
 import Bio from "./pages/bio";
 import Contact from "./pages/contact";
 import Music from "./pages/music";
+import Hoof from "./pages/releases/soundshoof";
 import art from './assets/art-grey.webp'; // Import your image from the assets folder
 import "./index.css"; // Global styles
 
@@ -29,6 +30,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
           <Route path="/bio" element={<Bio />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/music" element={<Music />} />
+          <Route path="/releases/sounds-hoof" element={<Hoof />} />
         </Routes>
       </BrowserRouter>
     </div>

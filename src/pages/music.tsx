@@ -40,20 +40,53 @@ export default function Music() {
       <h1 className="text-3xl font-bold mb-6 text-white">Music</h1>
 
       {/* Selling Shotguns Video */}
-        <h2 className="text-xl font-bold mb-2 text-white">Slow Loris – Selling Shotguns</h2>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/dRIN_ib_n-M?si=wDl0d39lv08nn_vd" 
-          title="YouTube video player" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-          >
-          </iframe>
+      <h2 className="text-xl font-bold mb-2 text-white">Slow Loris – Sounds Hoof</h2>
+<div
+  className="relative w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-3xl mx-auto"
+  style={{
+    paddingBottom: '56.25%', // default 16:9 aspect ratio
+  }}
+>
+  <div
+    className="absolute top-0 left-0 w-full h-full"
+    style={{
+      paddingBottom: '0',
+    }}
+  >
+    <iframe
+      className="w-full h-full"
+      src="https://www.youtube.com/embed/dRIN_ib_n-M?si=wDl0d39lv08nn_vd"
+      title="YouTube video player"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowFullScreen
+    />
+  </div>
+</div>
+        
 
       {/* Sounds Hoof Video */}
         <h2 className="text-xl font-bold mb-2 text-white">Slow Loris – Sounds Hoof</h2>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/MSPdHplI-Mk?si=afSBktvJsd7UEKAh" 
-          title="YouTube video player" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-          >
-          </iframe>
+<div
+  className="relative w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-3xl mx-auto"
+  style={{
+    paddingBottom: '56.25%', // default 16:9 aspect ratio
+  }}
+>
+  <div
+    className="absolute top-0 left-0 w-full h-full"
+    style={{
+      paddingBottom: '0',
+    }}
+  >
+    <iframe
+      className="w-full h-full"
+      src="https://www.youtube.com/embed/MSPdHplI-Mk?si=afSBktvJsd7UEKAh"
+      title="YouTube video player"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowFullScreen
+    />
+  </div>
+</div>
 
 
       {/* Spotify Player */}

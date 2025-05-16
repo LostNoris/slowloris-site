@@ -48,7 +48,7 @@ export default function Music() {
     }}
   >
     <option value="">Select a release</option>
-    <option value="/releases/ticking-is-torture">Ticking Is Torture</option>
+    <option value="/releases/tickling-is-torture">Tickling Is Torture</option>
     <option value="/releases/sounds-hoof">Sounds Hoof</option>
     <option value="/releases/selling-shotguns">Selling Shotguns</option>
   </select>

@@ -36,6 +36,24 @@ export default function Music() {
   </Link>
 </footer>
 
+<div className="mb-4">
+  <label htmlFor="releases" className="text-white font-semibold mr-2">Jump to Release:</label>
+  <select
+    id="releases"
+    className="bg-zinc-800 text-white p-2 rounded"
+    onChange={(e) => {
+      if (e.target.value) {
+        window.location.href = e.target.value;
+      }
+    }}
+  >
+    <option value="">Select a release</option>
+    <option value="/releases/ticking-is-torture">Ticking Is Torture</option>
+    <option value="/releases/sounds-hoof">Sounds Hoof</option>
+    <option value="/releases/selling-shotguns">Selling Shotguns</option>
+  </select>
+</div>
+
 
       <h1 className="text-3xl font-bold mb-6 text-white">Music</h1>
 

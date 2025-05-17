@@ -58,7 +58,7 @@ export default function Music() {
       <h1 className="text-3xl font-bold mb-6 text-white">Music</h1>
 
       {/* Selling Shotguns Video */}
-      <h2 className="text-xl font-bold mb-2 text-white">Slow Loris – Sounds Hoof</h2>
+      <h2 className="text-xl font-bold mb-2 text-white">Slow Loris – Selling Shotguns</h2>
 <div
   className="relative w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-3xl mx-auto"
   style={{

@@ -37,7 +37,7 @@ function Footer() {
               className="w-14 h-14 sm:w-20 sm:h-20 filter brightness-70 sm:hover:brightness-100 transition duration-300 transform hover:scale-110" />
             </a>
             <a href="https://facebook.com/slowlorisuk" target="_blank" rel="noopener noreferrer">
-              <img src={fb} alt="Facebok" 
+              <img src={fb} alt="Facebook" 
               className="w-14 h-14 sm:w-20 sm:h-20 filter brightness-70 sm:hover:brightness-100 transition duration-300 transform hover:scale-110" />
             </a>
           </footer>

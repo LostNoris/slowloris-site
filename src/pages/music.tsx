@@ -127,10 +127,9 @@ export default function Music() {
           />
         </div>
         
-
-        <div className="mt-8">
+          <br />
           <Socials />
-        </div>
+
 
         <footer className="text-sm text-white p-4 text-center border-t border-zinc-700 mt-12 w-full">
           &copy; {new Date().getFullYear()} slowlor.is — All rights reserved.

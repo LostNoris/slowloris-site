@@ -1,10 +1,35 @@
 import { Link } from "react-router-dom";
-import Socials from '../socialbuttons';
-import logo from '../assets/logo.webp'
+import Socials from "../socialbuttons";
+import logo from "../assets/logo.webp";
+
+// Example release data (can be externalized)
+const releases = [
+  {
+    title: "Selling Shotguns",
+    slug: "/releases/selling-shotguns",
+    image: "/src/assets/shotguns-art.webp",
+    type: "Single",
+    year: "2025"
+  },
+  {
+    title: "Sounds Hoof",
+    slug: "/releases/sounds-hoof",
+    image: "/src/assets/hoof-art.webp",
+    type: "EP",
+    year: "2021"
+  },
+  {
+    title: "Tickling Is Torture",
+    slug: "/releases/tickling-is-torture",
+    image: "/src/assets/tickling-art.webp",
+    type: "EP",
+    year: "2018"
+  },
+];
 
 export default function Music() {
   return (
-   <div className="min-h-screen w-full">
+        <div className="min-h-screen w-full">
     <div className="flex flex-col items-center justify-center w-full px-2 text-center">
       <header className="p-6 flex justify-center items-center w-full">
         <h1 className="text-3xl font-bold tracking-tight">
@@ -16,7 +41,7 @@ export default function Music() {
            />
           </Link>
         </h1>
-      </header> 
+      </header>
 
 <footer className="flex justify-center space-x-6 p-4 text-white border-t border-zinc-700">
   <Link to="/" className="text-orange-500 underline hover:text-orange-300">
@@ -36,92 +61,55 @@ export default function Music() {
   </Link>
 </footer>
 
-<div className="mb-4">
-  <label htmlFor="releases" className="text-white font-semibold mr-2">Jump to Release:</label>
-  <select
-    id="releases"
-    className="bg-zinc-800 text-white p-2 rounded"
-    onChange={(e) => {
-      if (e.target.value) {
-        window.location.href = e.target.value;
-      }
-    }}
-  >
-    <option value="">Select a release</option>
-    <option value="/releases/tickling-is-torture">Tickling Is Torture</option>
-    <option value="/releases/sounds-hoof">Sounds Hoof</option>
-    <option value="/releases/selling-shotguns">Selling Shotguns</option>
-  </select>
-</div>
+        <h1 className="text-3xl font-bold mb-8 text-white">Music</h1>
 
+        {/* Grid of Releases */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-6xl">
+          {releases.map((release, index) => (
+            <div
+              key={index}
+              className="flex flex-col items-center text-center group"
+            >
+              <Link to={release.slug} className="w-full">
+              <div className="overflow-hidden rounded-xl shadow-lg w-full aspect-square bg-zinc-800">
+                <img
+                  src={release.image}
+                  alt={release.title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              </Link>
+              <Link className="text-md text-bold text-white leading-tight"
+                to={release.slug}
+              >
+                {release.title} 
+              </Link>
+              <h2 className="text-sm text-white leading-tight">{release.type} {release.year}</h2>
+            </div>
+          ))}
+        </div>
 
-      <h1 className="text-3xl font-bold mb-6 text-white">Music</h1>
+        {/* Optional Spotify Section */}
+        <div className="w-full max-w-3xl mt-12">
+          <h2 className="text-xl font-bold mb-2 text-white">Listen on Spotify</h2>
+          <iframe
+            src="https://open.spotify.com/embed/artist/60Hk8vFZ6lc4ILjVKneHKl?utm_source=generator&theme=0"
+            width="100%"
+            height="352"
+            frameBorder="0"
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          />
+        </div>
 
-      {/* Selling Shotguns Video */}
-      <h2 className="text-xl font-bold mb-2 text-white">Slow Loris – Selling Shotguns</h2>
-<div
-  className="relative w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-3xl mx-auto"
-  style={{
-    paddingBottom: '56.25%', // default 16:9 aspect ratio
-  }}
->
-  <div
-    className="absolute top-0 left-0 w-full h-full"
-    style={{
-      paddingBottom: '0',
-    }}
-  >
-    <iframe
-      className="w-full h-full"
-      src="https://www.youtube.com/embed/dRIN_ib_n-M?si=wDl0d39lv08nn_vd"
-      title="YouTube video player"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowFullScreen
-    />
-  </div>
-</div>
-     
-<br />
-      {/* Sounds Hoof Video */}
-        <h2 className="text-xl font-bold mb-2 text-white">Slow Loris – Sounds Hoof</h2>
-<div
-  className="relative w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-3xl mx-auto"
-  style={{
-    paddingBottom: '56.25%', // default 16:9 aspect ratio
-  }}
->
-  <div
-    className="absolute top-0 left-0 w-full h-full"
-    style={{
-      paddingBottom: '0',
-    }}
-  >
-    <iframe
-      className="w-full h-full"
-      src="https://www.youtube.com/embed/MSPdHplI-Mk?si=afSBktvJsd7UEKAh"
-      title="YouTube video player"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowFullScreen
-    />
-  </div>
-</div>
+        <div className="mt-8">
+          <Socials />
+        </div>
 
-<br />
-      {/* Spotify Player */}
-      <div className="w-full max-w-3xl">
-        <h2 className="text-xl font-bold mb-2 text-white">Listen on Spotify</h2>
-        <iframe src="https://open.spotify.com/embed/artist/60Hk8vFZ6lc4ILjVKneHKl?utm_source=generator&theme=0" 
-        width="100%" height="352" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-        loading="lazy">
-        </iframe>
+        <footer className="text-sm text-white p-4 text-center border-t border-zinc-700 mt-12 w-full">
+          &copy; {new Date().getFullYear()} slowlor.is — All rights reserved.
+        </footer>
       </div>
-    <br />
-    <Socials />
-    
-    <footer className="text-sm text-white p-4 text-center border-t border-zinc-700 mt-12">
-        &copy; {new Date().getFullYear()} slowlor.is — All rights reserved.
-      </footer>
-    </div>
     </div>
   );
 }

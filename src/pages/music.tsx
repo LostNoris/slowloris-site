@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
+import { Card, CardContent } from "@/components/ui/card";
 import Socials from "../socialbuttons";
 import logo from "../assets/logo.webp";
 import shotguns from "../assets/shotguns-art.webp"
 import hoof from "../assets/hoof-art.webp"
 import tickling from "../assets/tickling-art.webp"
+import rust from '../assets/grey-rust.webp'
 
 // Example release data (can be externalized)
 const releases = [
@@ -66,6 +68,17 @@ export default function Music() {
 
         <h1 className="text-3xl font-bold mb-8 text-white">Music</h1>
 
+<Card
+       className="bg-zinc-500 border-zinc-700 max-w-xl shadow-xl rounded-2xl mx-auto w-full"
+       style={{
+       backgroundImage: `url(${rust})`,
+       backgroundSize: 'cover',
+       backgroundPosition: 'center',
+       backgroundBlendMode: 'overlay', // Makes background slightly transparent
+       backgroundColor: 'rgba(0, 0, 0, 0.6)', // Add overlay tint if needed
+       }}>
+       <CardContent className="p-4">
+
         {/* Grid of Releases */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-6xl">
           {releases.map((release, index) => (
@@ -91,6 +104,8 @@ export default function Music() {
             </div>
           ))}
         </div>
+        </CardContent>
+        </Card>
 
         {/* Optional Spotify Section */}
         <div className="w-full max-w-3xl mt-12">
@@ -104,6 +119,7 @@ export default function Music() {
             loading="lazy"
           />
         </div>
+        
 
         <div className="mt-8">
           <Socials />

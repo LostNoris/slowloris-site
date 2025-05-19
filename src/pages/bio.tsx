@@ -4,10 +4,17 @@ import Socials from '../socialbuttons';
 import logo from '../assets/logo.webp'
 import rust from '../assets/grey-rust.webp'
 import Stage from '../assets/stage.png'
+import { Helmet } from "react-helmet-async";
 
 export default function Bio() {
   return (
    <div className="min-h-screen w-full">
+<Helmet>
+<title>Slow Loris | Biography Page</title>
+<meta name="description" content="Read the biography of experimental alt-rock band Slow Loris." />
+<link rel="canonical" href="https://slowlor.is/bio" />
+</Helmet>
+
     <div className="flex flex-col items-center justify-center w-full px-2 text-center">
       <header className="p-6 flex justify-center items-center w-full">
         <h1 className="text-3xl font-bold tracking-tight">

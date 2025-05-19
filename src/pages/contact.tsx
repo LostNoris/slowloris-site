@@ -3,10 +3,16 @@ import { Link } from "react-router-dom"
 import Socials from '../socialbuttons';
 import logo from '../assets/logo.webp'
 import rust from '../assets/grey-rust.webp'
+import { Helmet } from "react-helmet-async";
 
 export default function Contact() {
   return (
    <div className="min-h-screen w-full">
+    <Helmet>
+    <title>Slow Loris | Contact Details</title>
+    <meta name="description" content="Find the contact details of UK based band Slow Loris.s" />
+    <link rel="canonical" href="https://slowlor.is/contact" />
+    </Helmet>
     <div className="flex flex-col items-center justify-center w-full px-2 text-center">
       <header className="p-6 flex justify-center items-center w-full">
         <h1 className="text-3xl font-bold tracking-tight">

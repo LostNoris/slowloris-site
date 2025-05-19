@@ -1,13 +1,19 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import Socials from '../../socialbuttons';
 import logo from '../../assets/logo.webp'
 import rust from '../../assets/grey-rust.webp'
-import Hoof from '../../assets/hoof-art.webp'
+import Hoof from '../../assets/hoof-art.webp';
 
 export default function SoundsHoof() {
   return (
    <div className="min-h-screen w-full">
+    <Helmet>
+    <title>Slow Loris | Sounds Hoof</title>
+    <meta name="description" content="Find the full releases details and stream the Slow Loris EP Sounds Hoof" />
+    <link rel="canonical" href="https://slowlor.is/releases/sounds-hoof" />
+    </Helmet>
     <div className="flex flex-col items-center justify-center w-full px-2 text-center">
       <header className="p-6 flex justify-center items-center w-full">
         <h1 className="text-3xl font-bold tracking-tight">

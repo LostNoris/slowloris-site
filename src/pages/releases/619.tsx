@@ -4,10 +4,16 @@ import Socials from '../../socialbuttons';
 import logo from '../../assets/logo.webp'
 import rust from '../../assets/grey-rust.webp'
 import Six from '../../assets/619-art.webp'
+import { Helmet } from "react-helmet-async";
 
 export default function sixonenine() {
   return (
    <div className="min-h-screen w-full">
+<Helmet>
+<title>Slow Loris | Six One Nine</title>
+<meta name="description" content="Find the full releases details and stream the Slow Loris single Six One Nine" />
+<link rel="canonical" href="https://slowlor.is/releases/six-one-nine" />
+</Helmet>
     <div className="flex flex-col items-center justify-center w-full px-2 text-center">
       <header className="p-6 flex justify-center items-center w-full">
         <h1 className="text-3xl font-bold tracking-tight">

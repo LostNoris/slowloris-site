@@ -1,27 +1,30 @@
 import { Link } from "react-router-dom";
 import Socials from "../socialbuttons";
 import logo from "../assets/logo.webp";
+import shotguns from "../assets/shotguns-art.webp"
+import hoof from "../assets/hoof-art.webp"
+import tickling from "../assets/tickling-art.webp"
 
 // Example release data (can be externalized)
 const releases = [
   {
     title: "Selling Shotguns",
     slug: "/releases/selling-shotguns",
-    image: "/src/assets/shotguns-art.webp",
+    image: shotguns,
     type: "Single",
     year: "2025"
   },
   {
     title: "Sounds Hoof",
     slug: "/releases/sounds-hoof",
-    image: "/src/assets/hoof-art.webp",
+    image: hoof,
     type: "EP",
     year: "2021"
   },
   {
     title: "Tickling Is Torture",
     slug: "/releases/tickling-is-torture",
-    image: "/src/assets/tickling-art.webp",
+    image: tickling,
     type: "EP",
     year: "2018"
   },

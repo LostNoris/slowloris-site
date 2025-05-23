@@ -13,6 +13,28 @@ export default function SoundsHoof() {
     <title>Slow Loris | Sounds Hoof</title>
     <meta name="description" content="Find the full releases details and stream the Slow Loris EP Sounds Hoof" />
     <link rel="canonical" href="https://slowlor.is/releases/sounds-hoof" />
+    <script type="application/ld+json">
+    {`{
+      "@context": "https://schema.org",
+      "@type": "MusicAlbum",
+      "@id": "https://slowlor.is/#sounds-hoof",
+      "name": "Sounds Hoof",
+      "url": "https://slowlor.is/releases/sounds-hoof",
+      "byArtist": {
+        "@id": "https://slowlor.is/#band"
+        },
+      "genre": "Progressive, Math Rock, Instrumental, Electronica",
+      "datePublished": "2021-01-01",
+      "albumProductionType": "StudioAlbum",
+      "numTracks": 5,
+      "sameAs": [
+        "https://open.spotify.com/album/08WpRS7dlfhGgJjVhJFbw2?si=9e4OXQg9RYStdvBKwzXcjg",
+        "https://slowloris.bandcamp.com/album/sounds-hoof-ep",
+        "https://www.youtube.com/watch?v=MSPdHplI-Mk&list=PLu_48AWVYCNCYzbhzDazV8iBVo-K-Gloa"
+      ]
+    }`}
+    </script>
+
     </Helmet>
     <div className="flex flex-col items-center justify-center w-full px-2 text-center">
       <header className="p-6 flex justify-center items-center w-full">
@@ -89,6 +111,8 @@ export default function SoundsHoof() {
 >
   Buy the cassette on Bandcamp
 </a>
+<br />
+<Link to="/watch/sounds-hoof" className="underline text-orange-500 hover:text-orange-300">Visit the watch page</Link>
 </p>
 
     </div>
@@ -98,7 +122,7 @@ export default function SoundsHoof() {
 
 
     <br />
-    <img src={Hoof} alt="pic" className="w-full sm:w-200 border-1 border-zinc-700 rounded-sm" />
+    <img src={Hoof} alt="pic" className="w-full sm:w-100 border-1 border-zinc-700 rounded-sm" />
     <br /> 
 
 <h2 className="text-xl font-bold mb-2 text-white">Slow Loris – Sounds Hoof</h2>

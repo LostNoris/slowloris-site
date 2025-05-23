@@ -11,7 +11,11 @@ import Hoof from "./pages/releases/soundshoof";
 import Shotguns from "./pages/releases/shotguns";
 import Tickling from "./pages/releases/tickling";
 import SixOneNine from "./pages/releases/619";
+import WatchShotguns from "./pages/watch/shotguns"
+import WatchHoof from "./pages/watch/hoof"
+
 import art from './assets/art-grey.webp';
+
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
@@ -36,7 +40,9 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
             <Route path="/contact" element={<Contact />} />
             <Route path="/music" element={<Music />} />
             <Route path="/releases/sounds-hoof" element={<Hoof />} />
+            <Route path="/watch/sounds-hoof" element={<WatchHoof />} />
             <Route path="/releases/selling-shotguns" element={<Shotguns />} />
+            <Route path="/watch/selling-shotguns" element={<WatchShotguns />} />
             <Route path="/releases/tickling-is-torture" element={<Tickling />} />
             <Route path="/releases/six-one-nine" element={<SixOneNine />} />
           </Routes>

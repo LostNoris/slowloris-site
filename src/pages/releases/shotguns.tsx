@@ -10,10 +10,40 @@ export default function SellingShotguns() {
   return (
    <div className="min-h-screen w-full">
 <Helmet>
-<title>Slow Loris | Selling Shotguns</title>
-<meta name="description" content="Find the full releases details and stream the Slow Loris single Selling Shotguns" />
-<link rel="canonical" href="https://slowlor.is/releases/selling-shotguns" />
+  <title>Slow Loris | Selling Shotguns</title>
+  <meta name="description" content="Find the full release details and stream the Slow Loris single 'Selling Shotguns'." />
+  <link rel="canonical" href="https://slowlor.is/releases/selling-shotguns" />
+  <script type="application/ld+json">
+    {`{
+      "@context": "https://schema.org",
+      "@type": "MusicRecording",
+      "@id": "https://slowlor.is/releases/selling-shotguns",
+      "name": "Selling Shotguns",
+      "url": "https://slowlor.is/releases/selling-shotguns",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://slowlor.is/releases/selling-shotguns"
+      },
+      "inAlbum": {
+        "@type": "MusicAlbum",
+        "name": "Singles",
+        "url": "https://slowlor.is"
+      },
+      "byArtist": {
+        "@id": "https://slowlor.is/#band"
+      },
+      "datePublished": "2025-04-18",
+      "genre": "Math Rock, Experimental, Progressive, Metal",
+      "duration": "PT4M04S",
+      "sameAs": [
+        "https://open.spotify.com/track/2AjhcJcbpSlbtf5yG3o1H0?si=e370f17e7a094ce1",
+        "https://youtu.be/dRIN_ib_n-M?si=SGKfi0ycTiHR_6bm",
+        "https://slowloris.bandcamp.com/track/selling-shotguns"
+      ]
+    }`}
+  </script>
 </Helmet>
+
     <div className="flex flex-col items-center justify-center w-full px-2 text-center">
       <header className="p-6 flex justify-center items-center w-full">
         <h1 className="text-3xl font-bold tracking-tight">
@@ -87,6 +117,9 @@ export default function SellingShotguns() {
       >
         Listen on Bandcamp
       </a>
+      <br />
+      <Link to="/watch/selling-shotguns" className="underline text-orange-500 hover:text-orange-300">Visit the watch page</Link>
+      
     </p>
 
     </div>
@@ -97,7 +130,7 @@ export default function SellingShotguns() {
 
 
     <br />
-    <img src={Shotguns} alt="pic" className="w-full sm:w-200 border-1 border-zinc-700 rounded-sm" />
+    <img src={Shotguns} alt="pic" className="w-full sm:w-100 border-1 border-zinc-700 rounded-sm" />
     <br /> 
 
 <h2 className="text-xl font-bold mb-2 text-white">Slow Loris – Selling Shotguns</h2>

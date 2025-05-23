@@ -24,27 +24,27 @@ function Footer() {
             target="_blank" rel="noopener noreferrer"
             aria-label="Listen to Slow Loris on Spotify">
               <img src={spot} alt="Listen to Slow Loris on Spotify" 
-              className="w-14 h-14 sm:w-20 sm:h-20 filter brightness-70 sm:hover:brightness-100 transition duration-300 transform hover:scale-110" />
+              className="w-14 h-14 sm:w-20 sm:h-20 filter sm:brightness-70 sm:hover:brightness-100 transition duration-300 transform hover:scale-110" />
             </a>
             <a href="https://instagram.com/slowlorisuk" target="_blank" rel="noopener noreferrer"
             aria-label="Follow Slow Loris on Instagram">
               <img src={insta} alt="Follow Slow Loris on Instagram" 
-              className="w-14 h-14 sm:w-20 sm:h-20 filter brightness-70 sm:hover:brightness-100 transition duration-300 transform hover:scale-110" />
+              className="w-14 h-14 sm:w-20 sm:h-20 filter sm:brightness-70 sm:hover:brightness-100 transition duration-300 transform hover:scale-110" />
             </a>
             <a href="https://slowloris.bandcamp.com" target="_blank" rel="noopener noreferrer"
             aria-label="Buy official Slow Loris merchandise on Bandcamp">
               <img src={bc} alt="Buy official Slow Loris merchandise on Bandcamp" 
-              className="w-14 h-14 sm:w-20 sm:h-20 filter brightness-70 sm:hover:brightness-100 transition duration-300 transform hover:scale-110" />
+              className="w-14 h-14 sm:w-20 sm:h-20 filter sm:brightness-70 sm:hover:brightness-100 transition duration-300 transform hover:scale-110" />
             </a>
             <a href="https://youtube.com/@slowlorisuk" target="_blank" rel="noopener noreferrer"
             aria-label="Watch official Slow Loris videos on YouTube">
               <img src={yt} alt="Watch official Slow Loris videos on YouTube" 
-              className="w-14 h-14 sm:w-20 sm:h-20 filter brightness-70 sm:hover:brightness-100 transition duration-300 transform hover:scale-110" />
+              className="w-14 h-14 sm:w-20 sm:h-20 filter sm:brightness-70 sm:hover:brightness-100 transition duration-300 transform hover:scale-110" />
             </a>
             <a href="https://facebook.com/slowlorisuk" target="_blank" rel="noopener noreferrer"
             aria-label="Follow Slow Loris on Facebook">
               <img src={fb} alt="Follow Slow Loris on Facebook" 
-              className="w-14 h-14 sm:w-20 sm:h-20 filter brightness-70 sm:hover:brightness-100 transition duration-300 transform hover:scale-110" />
+              className="w-14 h-14 sm:w-20 sm:h-20 filter sm:brightness-70 sm:hover:brightness-100 transition duration-300 transform hover:scale-110" />
             </a>
           </footer>
         </CardContent>

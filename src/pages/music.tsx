@@ -6,6 +6,8 @@ import shotguns from "../assets/shotguns-art.webp"
 import hoof from "../assets/hoof-art.webp"
 import tickling from "../assets/tickling-art.webp"
 import rust from '../assets/grey-rust.webp'
+import { Helmet } from "react-helmet-async";
+
 
 // Example release data (can be externalized)
 const releases = [
@@ -34,7 +36,12 @@ const releases = [
 
 export default function Music() {
   return (
-        <div className="min-h-screen w-full">
+<div className="min-h-screen w-full">
+<Helmet>
+<title>Slow Loris | Music</title>
+<meta name="description" content="Listen to the full discography of Slow Loris including visuals and links." />
+<link rel="canonical" href="https://slowlor.is/music" />
+</Helmet>
     <div className="flex flex-col items-center justify-center w-full px-2 text-center">
       <header className="p-6 flex justify-center items-center w-full">
         <h1 className="text-3xl font-bold tracking-tight">
@@ -120,10 +127,9 @@ export default function Music() {
           />
         </div>
         
-
-        <div className="mt-8">
+          <br />
           <Socials />
-        </div>
+
 
         <footer className="text-sm text-white p-4 text-center border-t border-zinc-700 mt-12 w-full">
           &copy; {new Date().getFullYear()} slowlor.is — All rights reserved.

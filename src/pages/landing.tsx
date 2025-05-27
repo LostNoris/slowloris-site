@@ -1,8 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom"
+import { Helmet } from "react-helmet-async";
 import Socials from '../socialbuttons';
-
 import logo from '../assets/logo.webp'
 import rust from '../assets/grey-rust.webp'
 
@@ -10,6 +10,13 @@ import rust from '../assets/grey-rust.webp'
 export default function Landing() {
   return (
     <div className="min-h-screen w-full">
+    <Helmet>
+    <title>Slow Loris | Experimental Alt-Rock Band</title>
+    <meta name="description" content="Slow Loris is an experimental alternative rock band from Leeds. 
+    Listen now on Spotify, Bandcamp, and YouTube, or grab merch from our official site." />
+    <link rel="canonical" href="https://slowlor.is/" />
+    </Helmet>
+      
     <div className="flex flex-col items-center justify-center w-full px-2 text-center">
       <header className="p-6 flex justify-center items-center w-full">
         <h1 className="text-3xl font-bold tracking-tight">

@@ -1,13 +1,41 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom"
+import { Helmet } from "react-helmet-async";
 import Socials from '../../socialbuttons';
 import logo from '../../assets/logo.webp'
 import rust from '../../assets/grey-rust.webp'
-import Tickling from '../../assets/tickling-art.webp'
+import Tickling from '../../assets/tickling-art.webp';
 
 export default function TicklingIsTorture() {
   return (
    <div className="min-h-screen w-full">
+<Helmet>
+  <title>Slow Loris | Tickling is Torture</title>
+  <meta name="description" content="Find the full releases details and stream the Slow Loris EP Tickling is Torture" />
+  <link rel="canonical" href="https://slowlor.is/releases/tickling-is-torture" />
+  <script type="application/ld+json">
+    {`{
+      "@context": "https://schema.org",
+      "@type": "MusicAlbum",
+      "@id": "https://slowlor.is/#tickling-is-torture",
+      "name": "Tickling is Torture",
+      "url": "https://slowlor.is/releases/tickling-is-torture",
+      "byArtist": {
+        "@id": "https://slowlor.is/#band"
+      },
+      "genre": "Progressive, Math Rock, Instrumental, Electronica",
+      "datePublished": "2018-04-05",
+      "albumProductionType": "StudioAlbum",
+      "numTracks": 3,
+      "sameAs": [
+        "https://open.spotify.com/album/34zsLgkzEvOxWsz2OaYUew?si=CRjrnzu9QmmpgJA5J-AxmQ",
+        "https://slowloris.bandcamp.com/album/tickling-is-torture",
+        "https://www.youtube.com/watch?v=gTjckUVK20M&list=PLu_48AWVYCNCOibid0AXCqtbt9lOB9J4K"
+      ]
+    }`}
+  </script>
+</Helmet>
+
     <div className="flex flex-col items-center justify-center w-full px-2 text-center">
       <header className="p-6 flex justify-center items-center w-full">
         <h1 className="text-3xl font-bold tracking-tight">

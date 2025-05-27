@@ -71,7 +71,7 @@ export default function sixonenine() {
       </p>
 
 <p className="text-base leading-relaxed font-medium">
-        The live video will premiere on YouTube on the 20th of June, one week after the official studio version.
+        The live video will premiere on YouTube on the 20th of June, one week after the official studio version. <Link to="https://distrokid.com/hyperfollow/slowloris/six-one-nine-2">Visit the presave page.</Link>
       </p>
 
       <p className="text-base leading-relaxed font-medium text-left">

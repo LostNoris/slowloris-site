@@ -65,10 +65,6 @@ export default function sixonenine() {
       </p>
 
       <p className="text-base leading-relaxed font-medium">
-        Following the ferocious momentum of their first single <em>Selling Shotguns</em>, <em>Six One Nine</em> is a compact instrumental epic. It rises from dissonant textures into dense, odd-meter riffs that draw as much from the nu-metal power of <strong>Korn</strong> and <strong>Deftones</strong> as they do from the progressive complexity of <strong>King Crimson</strong>. This release presents two distinct versions of the same track, each offering a unique perspective on the band’s evolving sound.
-      </p>
-
-      <p className="text-base leading-relaxed font-medium">
         The studio version, produced by Rebel Elements’ <strong>Sam Hobbs</strong>, showcases Slow Loris’s commitment to crafting immersive sonic environments. It is accompanied by surreal, cinematic visuals created by <strong>Chris Sellers</strong>.
       </p>
 

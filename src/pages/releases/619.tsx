@@ -46,7 +46,7 @@ export default function sixonenine() {
 </footer>
 <article>
     <main className="flex flex-1 flex-col items-center justify-center w-full px-6 text-center">
-        <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-2">Six One Nine - Release information</h1>
+        <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-2">Six One Nine</h1>
         <br />
         <Card
   className="bg-zinc-500 border-zinc-700 w-full max-w-[20rem] sm:max-w-md md:max-w-xl lg:max-w-2xl shadow-xl rounded-2xl mx-auto"
@@ -77,7 +77,7 @@ export default function sixonenine() {
       </p>
 
 <p className="text-base leading-relaxed font-medium">
-        The live video will premiere on YouTube on the 20th of June, one week after the official studio version. <Link to="https://distrokid.com/hyperfollow/slowloris/six-one-nine-2">Visit the presave page.</Link>
+        The live video will premiere on YouTube on the 20th of June, one week after the official studio version.
       </p>
 
       <p className="text-base leading-relaxed font-medium text-left">
@@ -89,11 +89,13 @@ export default function sixonenine() {
     </div>    
   </CardContent>
 </Card>
+ 
+<br />
 
+  <iframe src="https://open.spotify.com/embed/album/13SA9PBCZayYlyO3KGDFX4?utm_source=generator" width="100%" height="352" 
+  frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-    <br />
-    <img src={Six} alt="pic" className="w-full sm:w-100 border-1 border-zinc-700 rounded-sm" />
-    <br /> 
+<br />
 
 <h2 className="text-xl font-bold mb-2 text-white">Slow Loris – Six One Nine</h2>
 <div
@@ -108,6 +110,9 @@ export default function sixonenine() {
       paddingBottom: '0',
     }}
   >
+
+
+    
     <iframe
       className="w-full h-full"
       src="https://www.youtube.com/embed/ccLYp-aPZSg?si=gqBb0-cPOdbok8Hs"

@@ -102,7 +102,7 @@ export default function Bees() {
       </p>
 
       <p className="text-base leading-relaxed font-medium">
-        <em>Bees Rude</em> will be available on all major streaming platforms from Friday, August 24, 2025, offering listeners another glimpse into the ambitious sound world of Slow Loris.
+        <em>Bees Rude</em> will be available on all major streaming platforms from Sunday, August 24, 2025, offering listeners another glimpse into the ambitious sound world of Slow Loris.
       </p>
 
       <p className="text-base leading-relaxed font-medium text-left">

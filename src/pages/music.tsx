@@ -4,6 +4,7 @@ import Socials from "../socialbuttons";
 import logo from "../assets/logo.webp";
 import shotguns from "../assets/shotguns-art.webp"
 import six from "../assets/619-art.webp"
+import bees from "../assets/bees-art.webp"
 import hoof from "../assets/hoof-art.webp"
 import tickling from "../assets/tickling-art.webp"
 import rust from '../assets/grey-rust.webp'
@@ -12,6 +13,13 @@ import { Helmet } from "react-helmet-async";
 
 // Example release data (can be externalized)
 const releases = [
+  {
+    title: "Bees Rude",
+    slug: "/releases/bees-rude",
+    image: bees,
+    type: "Single",
+    year: "2025"
+  },
   {
     title: "Six One Nine",
     slug: "/releases/six-one-nine",
@@ -95,7 +103,7 @@ export default function Music() {
        <CardContent className="p-4">
 
         {/* Grid of Releases */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 w-full max-w-6xl">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-6xl">
           {releases.map((release, index) => (
             <div
               key={index}

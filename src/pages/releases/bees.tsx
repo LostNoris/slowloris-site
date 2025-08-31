@@ -34,10 +34,12 @@ export default function Bees() {
       },
       "datePublished": "2025-08-23",
       "genre": "Math Rock, Experimental, Progressive, Metal",
-      "duration": "PT5M18S",
+      "duration": "PT5M11S",
       "sameAs": [
         "https://www.youtube.com/watch?v=oeM4p4uvbZ0",
         "https://slowloris.bandcamp.com/track/bees-rude"
+        "https://soundcloud.com/slowlorisuk/bees-rude"
+        "https://open.spotify.com/track/3u8t1AtZuLwl3hrJ4GitdP?si=c15f97a731964384"
       ]
     }`}
   </script>

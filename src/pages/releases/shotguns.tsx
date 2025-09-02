@@ -57,7 +57,7 @@ export default function SellingShotguns() {
         </h1>
       </header> 
 
-<footer className="flex justify-center space-x-6 p-4 text-white border-t border-zinc-700">
+<footer className="flex justify-center space-x-4 p-4 text-white border-t border-zinc-700">
   <Link to="/" className="text-orange-500 underline hover:text-orange-300">
     Home
   </Link>
@@ -72,6 +72,9 @@ export default function SellingShotguns() {
   </Link>
   <Link to="https://slowloris.bandcamp.com/merch" className="text-orange-500 underline hover:text-orange-300">
     Merch
+  </Link>
+  <Link to="https://slowlor.is/events" className="text-orange-500 underline hover:text-orange-300">
+    Events
   </Link>
 </footer>
 <article>

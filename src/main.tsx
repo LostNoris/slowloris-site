@@ -7,6 +7,7 @@ import Landing from "./pages/landing";
 import Bio from "./pages/bio";
 import Contact from "./pages/contact";
 import Music from "./pages/music";
+import Events from "./pages/events";
 import Hoof from "./pages/releases/soundshoof";
 import Shotguns from "./pages/releases/shotguns";
 import Tickling from "./pages/releases/tickling";
@@ -40,6 +41,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
             <Route path="/bio" element={<Bio />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/music" element={<Music />} />
+            <Route path="/events" element={<Events />} />
             <Route path="/releases/sounds-hoof" element={<Hoof />} />
             <Route path="/watch/sounds-hoof" element={<WatchHoof />} />
             <Route path="/releases/selling-shotguns" element={<Shotguns />} />

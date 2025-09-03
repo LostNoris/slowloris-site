@@ -27,26 +27,29 @@ export default function sixonenine() {
         </h1>
       </header> 
 
-<footer className="flex justify-center space-x-4 p-4 text-white border-t border-zinc-700">
-  <Link to="/" className="text-orange-500 underline hover:text-orange-300">
-    Home
-  </Link>
-  <Link to="/bio" className="text-orange-500 underline hover:text-orange-300">
-    About
-  </Link>
-  <Link to="/contact" className="text-orange-500 underline hover:text-orange-300">
-    Contact
-  </Link>
-  <Link to="/music" className="text-orange-500 underline hover:text-orange-300">
-    Music
-  </Link>
-  <Link to="https://slowloris.bandcamp.com/merch" className="text-orange-500 underline hover:text-orange-300">
-    Merch
-  </Link>
-  <Link to="https://slowlor.is/events" className="text-orange-500 underline hover:text-orange-300">
-    Events
-  </Link>
-</footer>
+        <footer className="flex justify-center space-x-4 p-4 text-white border-t border-zinc-700">
+          <Link to="/" className="text-orange-500 underline hover:text-orange-300">
+            Home
+          </Link>
+          <Link to="/bio" className="text-orange-500 underline hover:text-orange-300">
+            About
+          </Link>
+          <Link to="/contact" className="text-orange-500 underline hover:text-orange-300">
+            Contact
+          </Link>
+          <Link to="/music" className="text-orange-500 underline hover:text-orange-300">
+            Music
+          </Link>
+          <Link
+            to="https://slowloris.bandcamp.com/merch"
+            className="text-orange-500 underline hover:text-orange-300"
+          >
+            Merch
+          </Link>
+          <Link to="/events" className="text-orange-500 underline hover:text-orange-300">
+            Events
+          </Link>
+        </footer>
 <article>
     <main className="flex flex-1 flex-col items-center justify-center w-full px-6 text-center">
         <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-2">Six One Nine</h1>

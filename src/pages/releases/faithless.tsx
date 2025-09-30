@@ -4,25 +4,25 @@ import { Helmet } from "react-helmet-async";
 import Socials from '../../socialbuttons';
 import logo from '../../assets/logo.webp'
 import rust from '../../assets/grey-rust.webp'
-import bees from '../../assets/bees-art.webp';
+import faith from '../../assets/faithless.webp';
 
 export default function Bees() {
   return (
    <div className="min-h-screen w-full">
 <Helmet>
-  <title>Slow Loris | Bees Rude</title>
-  <meta name="description" content="Find the full release details and stream the Slow Loris single 'Bees Rude'." />
+  <title>Slow Loris | Faithless</title>
+  <meta name="description" content="Find the full release details and stream the Slow Loris single 'Faithless'." />
   <link rel="canonical" href="https://slowlor.is/releases/bees-rude" />
   <script type="application/ld+json">
     {`{
       "@context": "https://schema.org",
       "@type": "MusicRecording",
-      "@id": "https://slowlor.is/releases/bees-rude",
+      "@id": "https://slowlor.is/releases/faithless",
       "name": "Selling Shotguns",
-      "url": "https://slowlor.is/releases/bees-rude",
+      "url": "https://slowlor.is/releases/faithless",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://slowlor.is/releases/bees-rude"
+        "@id": "https://slowlor.is/releases/faithless"
       },
       "inAlbum": {
         "@type": "MusicAlbum",
@@ -32,7 +32,7 @@ export default function Bees() {
       "byArtist": {
         "@id": "https://slowlor.is/#band"
       },
-      "datePublished": "2025-08-23",
+      "datePublished": "2025-10-10",
       "genre": "Math Rock, Experimental, Progressive, Metal",
       "duration": "PT5M11S",
       "sameAs": [
@@ -80,7 +80,7 @@ export default function Bees() {
 </footer>
 <article>
     <main className="flex flex-1 flex-col items-center justify-center w-full px-6 text-center">
-        <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-2">Bees Rude</h1>
+        <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-2">Faithless</h1>
         <br />
 <Card
   className="bg-zinc-500 border-zinc-700 w-full max-w-[20rem] sm:max-w-md md:max-w-xl lg:max-w-2xl shadow-xl rounded-2xl mx-auto"
@@ -95,19 +95,19 @@ export default function Bees() {
   <CardContent className="p-6">
     <div className="flex flex-col text-left text-white space-y-4">
       <p className="text-base leading-relaxed font-medium">
-        Leeds/Manchester-based experimental four-piece <strong>Slow Loris</strong> will release <em>“Bees Rude”</em> on August 24, 2025. A sprawling, rhythmically complex single, the track explores the tension between electronic soundscapes and nu-metal intensity.
+        Leeds/Manchester experimental four-piece <strong>Slow Loris</strong> return with <em>“Faithless”</em>, released October 10, 2025. A brooding and dynamic track, it moves between haunting ambience and crushing riffs, pulling listeners through the band’s most emotionally charged soundscape yet.
       </p>
 
       <p className="text-base leading-relaxed font-medium">
-        Following the heavy dissonance of <em>Six One Nine</em>, <em>Bees Rude</em> expands the band’s sonic territory with jagged odd-time structures, layered textures, and a restless sense of movement. Produced by <strong>Sam Hobbs (Rebel Elements)</strong>, the track highlights Slow Loris’s growing reputation for genre-defying experimentation ahead of their debut full-length album.
+        <em>Faithless</em> pushes Slow Loris’s textural gauntlet to new extremes — moody, atmospheric passages give way to fierce, riff-driven climaxes. It’s a song that captures both restraint and release, layering dense rhythms with electronic undercurrents to create something both intimate and immense.
       </p>
 
       <p className="text-base leading-relaxed font-medium">
-        The accompanying video, directed by <strong>Chris Sellers (LostNoris)</strong>, collages images of cityscapes, traffic, and hive insects—bees, wasps, and ants—to create a surreal vision of modern urban existence. The result is a striking audiovisual metaphor for life as swarm, ritual, and survival.
+        The accompanying video, directed by <strong>Chris Sellers (LostNoris)</strong>, builds on this intensity with stark, surreal imagery, mirroring the track’s descent into shadow and sudden bursts of light. It’s another striking visual companion to the band’s ongoing catalogue.
       </p>
 
       <p className="text-base leading-relaxed font-medium">
-        <em>Bees Rude</em> will be available on all major streaming platforms from Sunday, August 24, 2025, offering listeners another glimpse into the ambitious sound world of Slow Loris.
+        <em>Faithless</em> is available now on all major streaming platforms, offering another glimpse into the ambitious sonic world of Slow Loris ahead of their debut full-length album.
       </p>
 
       <p className="text-base leading-relaxed font-medium text-left">
@@ -121,15 +121,13 @@ export default function Bees() {
         >
           Listen on Bandcamp
         </a>
-        
       </p>
     </div>
   </CardContent>
 </Card>
 
-
     <br />
-    <img src={bees} alt="pic" className="w-full sm:w-100 border-1 border-zinc-700 rounded-sm" />
+    <img src={faith} alt="pic" className="w-full sm:w-100 border-1 border-zinc-700 rounded-sm" />
     <br /> 
 
 <h2 className="text-xl font-bold mb-2 text-white">Slow Loris – Bees Rude</h2>

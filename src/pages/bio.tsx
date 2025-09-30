@@ -60,14 +60,14 @@ export default function Bio() {
     backgroundBlendMode: 'overlay',
     backgroundColor: 'rgba(0, 0, 0, 0.6)',
   }}>
-  <CardContent className="p-6">
+<CardContent className="p-6">
     <div className="flex flex-col text-left text-white space-y-4">
       <p className="text-base leading-relaxed font-medium">
         <strong>Slow Loris</strong> are an experimental rock four-piece based between Leeds and Manchester. They fuse jagged alt-rock, modern progressive structures, nu-metal weight, and electronic textures into intense instrumental journeys. Their music balances cinematic ambition with raw energy, landing somewhere between the mathier end of post-rock and the visceral pulse of the UK underground.
       </p>
 
       <p className="text-base leading-relaxed font-medium">
-        Their debut album <strong>Selling Shotguns</strong> is currently rolling out, beginning with the release of the title track. Next up is <strong>Six One Nine</strong>, arriving June 13. It’s a deep cut of space, tension, and release that pushes their sound into even more dynamic, high-contrast territory.
+        Their debut album <strong>Selling Shotguns</strong> is rolling out, beginning with the title track and followed by <strong>Six One Nine</strong> and the feral single <strong>Bees Rude</strong>. Next up is <strong>Faithless</strong>, arriving on 10.10. A deep, moody cut that explores the full range of Slow Loris’s textural gauntlet, fierce and packed with emotion.
       </p>
 
       <p className="text-base leading-relaxed font-medium">
@@ -84,6 +84,7 @@ export default function Bio() {
     </div>
   </CardContent>
 </Card>
+
 
     <br />
 

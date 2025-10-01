@@ -6,6 +6,7 @@ import shotguns from "../assets/shotguns-art.webp"
 import six from "../assets/619-art.webp"
 import bees from "../assets/bees-art.webp"
 import hoof from "../assets/hoof-art.webp"
+import faith from "../assets/faithless.webp"
 import tickling from "../assets/tickling-art.webp"
 import rust from '../assets/grey-rust.webp'
 import { Helmet } from "react-helmet-async";
@@ -13,6 +14,13 @@ import { Helmet } from "react-helmet-async";
 
 // Example release data (can be externalized)
 const releases = [
+  {
+    title: "Faithless",
+    slug: "/releases/faithless",
+    image: faith,
+    type: "Single",
+    year: "2025"
+  },
   {
     title: "Bees Rude",
     slug: "/releases/bees-rude",

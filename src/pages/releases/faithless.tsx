@@ -130,7 +130,7 @@ export default function Bees() {
     <img src={faith} alt="pic" className="w-full sm:w-100 border-1 border-zinc-700 rounded-sm" />
     <br /> 
 
-<h2 className="text-xl font-bold mb-2 text-white">Slow Loris – Bees Rude</h2>
+<h2 className="text-xl font-bold mb-2 text-white">Slow Loris – Faithless</h2>
 <div
   className="relative w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-3xl mx-auto"
   style={{
@@ -145,7 +145,7 @@ export default function Bees() {
   >
     <iframe
       className="w-full h-full"
-      src="https://www.youtube.com/embed/oeM4p4uvbZ0?si=n5yImB5n9tqpQtjq"
+      src="https://www.youtube.com/embed/5Gf9iD49lNA?si=fpjvDLPIwMJDSfi3"
       title="YouTube video player"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowFullScreen

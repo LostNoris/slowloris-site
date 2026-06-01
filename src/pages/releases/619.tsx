@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import Socials from '../../socialbuttons';
 import logo from '../../assets/logo.webp'
 import rust from '../../assets/grey-rust.webp'
-import Six from '../../assets/619-art.webp'
+//import Six from '../../assets/619-art.webp'
 import { Helmet } from "react-helmet-async";
 
 export default function sixonenine() {
@@ -13,6 +13,36 @@ export default function sixonenine() {
 <title>Slow Loris | Six One Nine</title>
 <meta name="description" content="Find the full releases details and stream the Slow Loris single Six One Nine" />
 <link rel="canonical" href="https://slowlor.is/releases/six-one-nine" />
+<script type="application/ld+json">
+    {`{
+      "@context": "https://schema.org",
+      "@type": "MusicRecording",
+      "@id": "https://slowlor.is/releases/619",
+      "name": "ID",
+      "url": "https://slowlor.is/releases/619",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://slowlor.is/releases/619"
+      },
+      "inAlbum": {
+        "@type": "MusicAlbum",
+        "name": "Singles",
+        "url": "https://slowlor.is"
+      },
+      "byArtist": {
+        "@id": "https://slowlor.is/#band"
+      },
+      "datePublished": "2025-10-10",
+      "genre": "Math Rock, Experimental, Progressive, Metal",
+      "duration": "PT3M57S",
+      "sameAs": [
+        "https://www.youtube.com/watch?v=ccLYp-aPZSg",
+        "https://slowloris.bandcamp.com/album/six-one-nine"
+        "https://soundcloud.com/slowlorisuk/six-one-nine"
+        "https://open.spotify.com/album/4S1xoWU43gScBjA74DjWue?si=C7WgWgPPRIWq7jbZqNURDg"
+      ]
+    }`}
+  </script>
 </Helmet>
     <div className="flex flex-col items-center justify-center w-full px-2 text-center">
       <header className="p-6 flex justify-center items-center w-full">

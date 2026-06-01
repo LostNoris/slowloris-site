@@ -16,6 +16,7 @@ import WatchShotguns from "./pages/watch/shotguns"
 import WatchHoof from "./pages/watch/hoof"
 import Bees from "./pages/releases/bees";
 import Faith from "./pages/releases/faithless";
+import ID from "./pages/releases/id";
 
 
 import art from './assets/art-grey.webp';
@@ -52,6 +53,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
             <Route path="/releases/six-one-nine" element={<SixOneNine />} />
             <Route path="/releases/bees-rude" element={<Bees />} />
             <Route path="/releases/faithless" element={<Faith />} />
+            <Route path="/releases/id" element={<ID />} />
           </Routes>
         </BrowserRouter>
       </div>

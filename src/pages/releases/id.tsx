@@ -4,25 +4,25 @@ import { Helmet } from "react-helmet-async";
 import Socials from '../../socialbuttons';
 import logo from '../../assets/logo.webp'
 import rust from '../../assets/grey-rust.webp'
-import faith from '../../assets/faithless.webp';
+import art from '../../assets/ID-art.webp';
 
-export default function Bees() {
+export default function ID() {
   return (
    <div className="min-h-screen w-full">
 <Helmet>
-  <title>Slow Loris | Faithless</title>
-  <meta name="description" content="Find the full release details and stream the Slow Loris single 'Faithless'." />
-  <link rel="canonical" href="https://slowlor.is/releases/faithless" />
+  <title>Slow Loris | ID</title>
+  <meta name="description" content="Find the full release details and stream the Slow Loris single 'ID'." />
+  <link rel="canonical" href="https://slowlor.is/releases/bees-rude" />
   <script type="application/ld+json">
     {`{
       "@context": "https://schema.org",
       "@type": "MusicRecording",
-      "@id": "https://slowlor.is/releases/faithless",
-      "name": "Faithless",
-      "url": "https://slowlor.is/releases/faithless",
+      "@id": "https://slowlor.is/releases/id",
+      "name": "ID",
+      "url": "https://slowlor.is/releases/id",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://slowlor.is/releases/faithless"
+        "@id": "https://slowlor.is/releases/id"
       },
       "inAlbum": {
         "@type": "MusicAlbum",
@@ -80,7 +80,7 @@ export default function Bees() {
 </footer>
 <article>
     <main className="flex flex-1 flex-col items-center justify-center w-full px-6 text-center">
-        <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-2">Faithless</h1>
+        <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-2">ID</h1>
         <br />
 <Card
   className="bg-zinc-500 border-zinc-700 w-full max-w-[20rem] sm:max-w-md md:max-w-xl lg:max-w-2xl shadow-xl rounded-2xl mx-auto"
@@ -93,41 +93,45 @@ export default function Bees() {
   }}
 >
   <CardContent className="p-6">
-    <div className="flex flex-col text-left text-white space-y-4">
-      <p className="text-base leading-relaxed font-medium">
-        Leeds/Manchester experimental four-piece <strong>Slow Loris</strong> return with <em>“Faithless”</em>, released October 10, 2025. A brooding and dynamic track, it moves between haunting ambience and crushing riffs, pulling listeners through the band’s most emotionally charged soundscape yet.
-      </p>
+  <div className="flex flex-col text-left text-white space-y-4">
+    <p className="text-base leading-relaxed font-medium">
+      Leeds/Manchester experimental four-piece <strong>Slow Loris</strong> return with <em>“ID”</em>, a slow-burning new single that finds the band exploring a more restrained and reflective side of their sound. Released as the latest preview of their forthcoming debut album, the track unfolds patiently before erupting into one of the heaviest and most cathartic finales in the band's catalogue.
+    </p>
 
-      <p className="text-base leading-relaxed font-medium">
-        <em>Faithless</em> pushes Slow Loris’s textural gauntlet to new extremes — moody, atmospheric passages give way to fierce, riff-driven climaxes. It’s a song that captures both restraint and release, layering dense rhythms with electronic undercurrents to create something both intimate and immense.
-      </p>
+    <p className="text-base leading-relaxed font-medium">
+      Built on spacious atmospheres, hypnotic rhythms, and layers of evolving texture, <em>ID</em> balances tension and release with Slow Loris’s characteristic blend of post-metal weight and electronic experimentation. What begins as a meditative journey gradually gathers momentum, culminating in a crushing closing riff that lingers long after the final note fades.
+    </p>
 
-      <p className="text-base leading-relaxed font-medium">
-        The accompanying video, directed by <strong>Chris Sellers (LostNoris)</strong>, builds on this intensity with stark, surreal imagery, mirroring the track’s descent into shadow and sudden bursts of light. It’s another striking visual companion to the band’s ongoing catalogue.
-      </p>
+    <p className="text-base leading-relaxed font-medium">
+      Accompanying the single is an exclusive remix by Manchester electronic artist <strong>Dom Hz</strong>, who reimagines the track through an IDM lens. Fragmented rhythms, intricate programming, and shimmering synthetic textures transform the source material into a compelling companion piece, offering a fresh perspective on the themes and atmosphere of the original composition.
+    </p>
 
-      <p className="text-base leading-relaxed font-medium">
-        <em>Faithless</em> is available now on all major streaming platforms, offering another glimpse into the ambitious sonic world of Slow Loris ahead of their debut full-length album.
-      </p>
+    <p className="text-base leading-relaxed font-medium">
+      Both versions are accompanied by dedicated visualiser videos on YouTube. The original track features visuals created by <strong>Chris Sellers (LostNoris)</strong>, while the remix is paired with its own bespoke visual experience produced by <strong>Dom Hz</strong>, extending the sonic identities of each version into the visual realm.
+    </p>
 
-      <p className="text-base leading-relaxed font-medium text-left">
-        Learn more about Slow Loris on the <Link to="/bio" className="underline text-orange-500 hover:text-orange-300">artist bio</Link> page, or <Link to="/contact" className="underline text-orange-500 hover:text-orange-300">get in touch</Link> for press and booking inquiries.
-        <br />
-        <a
-          href="https://slowloris.bandcamp.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="underline text-orange-500 hover:text-orange-300"
-        >
-          Listen on Bandcamp
-        </a>
-      </p>
-    </div>
-  </CardContent>
+    <p className="text-base leading-relaxed font-medium">
+      <em>ID</em> and the <em>Dom Hz Remix</em> are available now on all major streaming platforms, presenting two distinct interpretations of the same composition and offering another glimpse into the evolving world of Slow Loris.
+    </p>
+
+    <p className="text-base leading-relaxed font-medium text-left">
+      Learn more about Slow Loris on the <Link to="/bio" className="underline text-orange-500 hover:text-orange-300">artist bio</Link> page, or <Link to="/contact" className="underline text-orange-500 hover:text-orange-300">get in touch</Link> for press and booking inquiries.
+      <br />
+      <a
+        href="https://slowloris.bandcamp.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="underline text-orange-500 hover:text-orange-300"
+      >
+        Listen on Bandcamp
+      </a>
+    </p>
+  </div>
+</CardContent>
 </Card>
 
     <br />
-    <img src={faith} alt="pic" className="w-full sm:w-100 border-1 border-zinc-700 rounded-sm" />
+    <img src={art} alt="pic" className="w-full sm:w-100 border-1 border-zinc-700 rounded-sm" />
     <br /> 
 
 <h2 className="text-xl font-bold mb-2 text-white">Slow Loris – Faithless</h2>

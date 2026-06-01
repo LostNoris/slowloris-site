@@ -18,7 +18,7 @@ export default function Bees() {
       "@context": "https://schema.org",
       "@type": "MusicRecording",
       "@id": "https://slowlor.is/releases/bees-rude",
-      "name": "Selling Shotguns",
+      "name": "Bees Rude",
       "url": "https://slowlor.is/releases/bees-rude",
       "mainEntityOfPage": {
         "@type": "WebPage",

@@ -32,14 +32,11 @@ export default function ID() {
       "byArtist": {
         "@id": "https://slowlor.is/#band"
       },
-      "datePublished": "2025-10-10",
+      "datePublished": "2026-06-05",
       "genre": "Math Rock, Experimental, Progressive, Metal",
-      "duration": "PT5M11S",
+      "duration": "PT3M50S",
       "sameAs": [
-        "https://www.youtube.com/watch?v=oeM4p4uvbZ0",
-        "https://slowloris.bandcamp.com/track/bees-rude"
-        "https://soundcloud.com/slowlorisuk/bees-rude"
-        "https://open.spotify.com/track/3u8t1AtZuLwl3hrJ4GitdP?si=c15f97a731964384"
+        "https://www.youtube.com/watch?v=Q20aTqvKlVo"
       ]
     }`}
   </script>
@@ -134,7 +131,7 @@ export default function ID() {
     <img src={art} alt="pic" className="w-full sm:w-100 border-1 border-zinc-700 rounded-sm" />
     <br /> 
 
-<h2 className="text-xl font-bold mb-2 text-white">Slow Loris – Faithless</h2>
+<h2 className="text-xl font-bold mb-2 text-white">Slow Loris – ID</h2>
 <div
   className="relative w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-3xl mx-auto"
   style={{
@@ -149,7 +146,7 @@ export default function ID() {
   >
     <iframe
       className="w-full h-full"
-      src="https://www.youtube.com/embed/5Gf9iD49lNA?si=fpjvDLPIwMJDSfi3"
+      src="https://www.youtube.com/embed/Q20aTqvKlVo?si=1DdsgsAL2NJLBqMO"
       title="YouTube video player"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowFullScreen

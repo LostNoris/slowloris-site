@@ -37,8 +37,8 @@ export default function sixonenine() {
       "duration": "PT3M57S",
       "sameAs": [
         "https://www.youtube.com/watch?v=ccLYp-aPZSg",
-        "https://slowloris.bandcamp.com/album/six-one-nine"
-        "https://soundcloud.com/slowlorisuk/six-one-nine"
+        "https://slowloris.bandcamp.com/album/six-one-nine",
+        "https://soundcloud.com/slowlorisuk/six-one-nine",
         "https://open.spotify.com/album/4S1xoWU43gScBjA74DjWue?si=C7WgWgPPRIWq7jbZqNURDg"
       ]
     }`}

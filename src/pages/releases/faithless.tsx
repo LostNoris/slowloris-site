@@ -34,12 +34,11 @@ export default function Bees() {
       },
       "datePublished": "2025-10-10",
       "genre": "Math Rock, Experimental, Progressive, Metal",
-      "duration": "PT5M11S",
+      "duration": "PT4M30S",
       "sameAs": [
-        "https://www.youtube.com/watch?v=oeM4p4uvbZ0",
-        "https://slowloris.bandcamp.com/track/bees-rude"
-        "https://soundcloud.com/slowlorisuk/bees-rude"
-        "https://open.spotify.com/track/3u8t1AtZuLwl3hrJ4GitdP?si=c15f97a731964384"
+        "https://www.youtube.com/watch?v=5Gf9iD49lNA",
+        "https://slowloris.bandcamp.com/track/faithless",
+        "https://open.spotify.com/track/733JAFfg91P8sgIX0pHx0B?si=dfb148116bcd40b3"
       ]
     }`}
   </script>
